@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  postgresdb:
+    image: postgres:13.4-alpine
+    environment:
+        - POSTGRES_PASSWORD=mypassword
+        - POSTGRES_USER=myuser
+        - POSTGRES_DB=mydb
+    ports:
+      - "5432:5432"
+    networks:
+      - exercise-net
+networks:
+  exercise-net:
+    driver: bridge

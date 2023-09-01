@@ -1,0 +1,26 @@
+Java Developer coding task
+
+Coding challenge task is to create backend for a simple "marketing" application:
+* Client should be able to sign-in/sign-up with email & password
+* Client should be able to create an email campaign and send it
+	- Keep the email campaign model simlpe, it can have: Name,Subject, Email Body, List of subscribers
+	- No SMTP or other protocol must be used for sending emails, a simple mock service is enough
+* Client should be able to see his campaigns data: status, body, subscribers (who received email, who not)
+
+You should create database structure, backend and REST API.
+
+Technology stack
+* Java 8 or higher
+* Spring Boot
+* PostgreSQL or any in-memory database (like H2/HSQLDB)
+* Docker/Docker-Compose (optional)
+
+Note: Spring security usage is not necessary.
+
+What we will take into consideration on final valuation:
+- How well business requirements are understood
+- Data model
+- How the code is organized and layered
+- Quality of the code
+- Test coverage (is a plus)
+- Additional tools/libs (is a plus)
