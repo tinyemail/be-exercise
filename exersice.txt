@@ -12,6 +12,7 @@ You should create database structure, backend and REST API.
 Technology stack
 * Java 8 or higher
 * Spring Boot
+* JPA
 * PostgreSQL or any in-memory database (like H2/HSQLDB)
 * Docker/Docker-Compose (optional)
 
