@@ -1,11 +1,13 @@
 Java Developer coding task
 
 Coding challenge task is to create backend for a simple "marketing" application:
-* Client should be able to sign-in/sign-up with email & password
-* Client should be able to create an email campaign and send it
-	- Keep the email campaign model simple, it can have: Name,Subject, Email Body, List of subscribers
-	- No SMTP or other protocol must be used for sending emails, a simple mock service is enough or in memory data structure
-* Client should be able to see his campaigns data: status, body, subscribers (who received email, who not)
+* Having next business entities Client + Campaign
+* Client should be able:
+   - Create campaign
+   - List campaigns
+   - Send campaign
+* Keep the email campaign model simple, it can have: Name, Subject, Status, Email Body, List of Subscribers, etc.
+* No SMTP or other protocol must be used for sending emails, a simple mock service.
 
 You should create database structure, backend and REST API.
 
