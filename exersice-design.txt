@@ -1,0 +1,32 @@
+Design/Code an application
+
+Design/Coding challenge task is to create backend for a simple "marketing" application:
+* Having next business entities Client + Campaign
+* Client should be able:
+   - Create campaign
+   - List campaigns
+   - Send campaign
+* Keep the email campaign model simple, it can have: Name, Subject, Status, Email Body, List of Subscribers, etc.
+* No SMTP or other protocol must be used for sending emails, a simple mock service.
+
+You should create database structure, backend and REST API.
+
+Technology stack
+* Java 8 or higher
+* Spring Boot
+* JPA
+* PostgreSQL or any in-memory database (like H2/HSQLDB)
+* Docker/Docker-Compose (optional)
+
+Note: Spring security usage is not necessary.
+
+What we will take into consideration on final valuation:
+- How well business requirements are understood
+- Data model
+- How the code is organized and layered
+- Quality of the code
+- Costs considerations
+- Scalability
+- Resilient
+- Test coverage (is a plus)
+- Additional tools/libs (is a plus)
