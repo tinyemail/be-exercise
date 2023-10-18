@@ -24,8 +24,9 @@ What we will take into consideration on final valuation:
 - Data model
 - How the code is organized and layered
 - CI/CD
+- System infrastructure
 - Quality of the code
-- Costs considerations
+- Cost considerations
 - Scalability
 - Resilient
 - Test coverage (is a plus)
